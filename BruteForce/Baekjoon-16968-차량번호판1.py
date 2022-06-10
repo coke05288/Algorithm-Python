@@ -1,9 +1,10 @@
 # Baekjoon 16968 차량번호판1
 # BruteForce
 
-# Recursive
+# 1. Recursive
 def recur_solution(_s, _index, _last):
     
+    # Base-Case
     if len(_s) == _index:
         return 1
 
@@ -18,7 +19,7 @@ def recur_solution(_s, _index, _last):
 
     return answer
 
-# Combine
+# function 001 | 2. Combine
 def comb_solution(_s):
     answer = 1
 
