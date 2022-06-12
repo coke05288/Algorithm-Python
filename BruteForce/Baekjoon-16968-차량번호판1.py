@@ -1,5 +1,6 @@
-# Baekjoon 16968 차량번호판1
-# BruteForce
+## BruteForce
+## Baekjoon 16968 차량번호판1
+## https://www.acmicpc.net/problem/16968
 
 # 1. Recursive
 def recur_solution(_s, _index, _last):

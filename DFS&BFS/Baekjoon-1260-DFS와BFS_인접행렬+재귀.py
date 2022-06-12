@@ -1,5 +1,6 @@
 ## DFS & BFS
 ## Baekjoon 1260 DFS와 BFS
+## https://www.acmicpc.net/problem/1260
 from collections import deque
 
 # 값 입력

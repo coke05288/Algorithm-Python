@@ -1,5 +1,6 @@
-# Baekjoon 16917 양념반후라이드반
-# BruteForce
+## BruteForce
+## Baekjoon 16917 양념반후라이드반
+## https://www.acmicpc.net/problem/16917
 
 def solution():
     

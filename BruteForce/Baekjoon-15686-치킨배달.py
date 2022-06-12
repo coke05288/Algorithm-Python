@@ -1,5 +1,6 @@
-# Baekjoon 15686 치킨배달
-# BruteForce
+## BruteForce
+## Baekjoon 15686 치킨배달
+## https://www.acmicpc.net/problem/15686
 
 from itertools import combinations
 

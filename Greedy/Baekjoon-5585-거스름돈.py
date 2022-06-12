@@ -1,5 +1,6 @@
 ## 그리디 알고리즘
 ## 백준 5585 거스름돈
+## https://www.acmicpc.net/problem/5585
 
 coins = [500, 100, 50, 10, 5, 1]
 

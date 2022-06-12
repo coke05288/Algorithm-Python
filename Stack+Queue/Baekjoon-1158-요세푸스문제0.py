@@ -1,3 +1,6 @@
+## Stack & Queue
+## Baekjoon 1158 요세푸스 문제
+## https://www.acmicpc.net/problem/1158
 from collections import deque
 
 queue = deque()

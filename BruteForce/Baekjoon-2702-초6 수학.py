@@ -1,3 +1,7 @@
+## Brute Force
+## Baekjoon 2702 숫자판 점프
+## https://www.acmicpc.net/problem/2702
+
 def lcm(_a, _b):
     return _a *_b//gcd(_a, _b)
 

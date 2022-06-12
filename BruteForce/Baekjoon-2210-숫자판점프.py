@@ -1,3 +1,7 @@
+## Brute Force
+## Baekjoon 2210 숫자판 점프
+## https://www.acmicpc.net/problem/2210
+
 l = 0
 
 board = []

@@ -1,6 +1,6 @@
-
 ## 그리디 알고리즘
-## 백준 1783 잃어버린 괄호
+## 백준 1783 병든 나이트
+## https://www.acmicpc.net/problem/1783
 
 N, M = map(int, input().split(" "))
 
