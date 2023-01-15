@@ -1,6 +1,6 @@
 ## Stack & Queue
-## Baekjoon 2162 카드1
-## https://www.acmicpc.net/problem/2162
+## Baekjoon 2161 카드1
+## https://www.acmicpc.net/problem/2161
 from collections import deque
 
 Card = deque([i+1 for i in range(int(input()))])
