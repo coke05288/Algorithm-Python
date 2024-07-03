@@ -1,19 +1,19 @@
 ## Backtracking
-## Baekjoon 15649 N과 M(2)
-## https://www.acmicpc.net/problem/15650
+## Baekjoon 15653 N과 M(5)
+## https://www.acmicpc.net/problem/15653
 
 N, M = map(int, input().split())
+sequence = list(map(int, input().split()))
 result = list()
 
-def func(_k):
+def func():
     if len(result) == M:
         print(' '.join(map(str, result)))
         return
-    
-    for i in range(_k, N + 1):
+    for i in sorted(sequence):
         if i not in result:
             result.append(i)
-            func(i+1)
+            func()
             result.pop()
 
-func(1)
+func()

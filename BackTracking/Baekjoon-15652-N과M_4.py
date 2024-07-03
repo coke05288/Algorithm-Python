@@ -1,17 +1,17 @@
 ## Backtracking
-## Baekjoon 15651 N과 M(3)
-## https://www.acmicpc.net/problem/15651
+## Baekjoon 15652 N과 M(4)
+## https://www.acmicpc.net/problem/15652
 
 N, M = map(int, input().split())
 result = list()
 
-def func():
+def func(k):
     if len(result) == M:
         print(' '.join(map(str, result)))
         return
-    for i in range(1, N + 1):
+    for i in range(k, N+1):
         result.append(i)
-        func()
+        func(i)
         result.pop()
 
-func()
+func(1)
