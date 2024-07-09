@@ -1,5 +1,5 @@
-## 다익스트라(Dijkstra)
-## Baekjoon 13549 숨바꼭질3
+## 다익스트라(Dijkstra), 힙(Heap)
+## Baekjoon 13549 숨바꼭질 3
 ## https://www.acmicpc.net/problem/13549
 
 import sys
