@@ -1,6 +1,7 @@
 ## Stack & Queue
 ## Baekjoon 1158 요세푸스 문제
 ## https://www.acmicpc.net/problem/1158
+
 from collections import deque
 
 queue = deque()
@@ -19,7 +20,7 @@ while queue:
 print("<", end="")
 
 for i in range(len(answer)-1):
-    print("%d, " % answer[i], end="")
+    print(f"{answer[i]}, ", end="")
     
 print(answer[-1], end="")    
 print(">", end="")
