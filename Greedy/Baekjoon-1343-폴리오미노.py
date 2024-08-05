@@ -4,14 +4,13 @@
 
 board = input()
 
+def solution(board):
+    board = board.replace("XXXX", "AAAA")
+    board = board.replace("XX", "BB")
 
-def solution(_board):
-    _board = _board.replace("XXXX", "AAAA")
-    _board = _board.replace("XX", "BB")
-
-    if "X" in _board:
+    if "X" in board:
         return -1
     else:
-        return _board
+        return board
 
 print(solution(board))
