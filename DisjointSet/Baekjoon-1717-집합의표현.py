@@ -4,14 +4,12 @@
 
 n, m = map(int, input().split())
 root = [i for i in range(n + 1)]
-rank = [0 for i in range(n + 1)]
 
 def find(x):
-    if root[x] == x:
-        return x
-    else:
+    if root[x] != x:
         root[x] = find(root[x])
-        return root[x]
+    
+    return root[x]
 
 def union(x, y):
     x = find(x)
@@ -20,12 +18,10 @@ def union(x, y):
     if x == y:
         return
 
-    if root[x] > root[y]:
+    if x > y:
         root[y] = x
-    elif root[x] < root[y]:
+    else :
         root[x] = y
-    else:
-        rank[x] += 1        
 
 for _ in range(m):
     o, a, b = map(int, input().split())
