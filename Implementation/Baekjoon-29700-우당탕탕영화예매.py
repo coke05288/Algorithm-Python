@@ -12,17 +12,16 @@ def solution(N, M, K, seats):
     answer = 0
 
     for i in range(N):
+        window = []
         for j in range(M):
-            if seats[i][j] == '0':
-                check = True
-                for k in range(K):
-                    if j + k < M:
-                        if seats[i][j + k] != '0':
-                            check = False
-                    else:
-                        check = False
-                if check:
-                    answer += 1
+            if len(window) < K:
+                window.append(seats[i][j])
+            elif len(window) == K:
+                window.pop(0)
+                window.append(seats[i][j])
+
+            if K == window.count('0'):
+                answer += 1
 
     return answer
 
